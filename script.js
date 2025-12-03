@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 1. Botón SÍ
     yesBtn.addEventListener('click', () => {
         // Mensaje de éxito
-        alert("¡SABÍA QUE DIRÍAS QUE SÍ! TE QUIERO MUCHO❤️");
+        alert("¡SABÍA QUE DIRÍAS QUE SÍ! TE QUIERO MUCHO ❤️");
         document.body.style.backgroundColor = "#ffc1c1";
         finalScreen.innerHTML = '<h1 style="font-size:3rem; color:#d32f2f;">¡Gracias! ❤️</h1><p style="font-size:1.5rem;">Me haces muy feliz.</p>';
     });
