@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una pregunta especial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-container">
+        <div id="game-screen">
+            <h1 class="title">Escribe la palabra...</h1>
+            <p class="instruction" id="clue-text">Cargando pista...</p>
+            
+            <div class="input-group">
+                <input type="text" id="word-input" placeholder="Escribe la palabra aquí..." autocomplete="off">
+                <button id="submit-btn">Verificar</button>
+            </div>
+            
+            <p id="error-message" class="hidden">Esa no es la palabra correcta, intenta de nuevo ❤️</p>
+            <div class="progress-dots" id="dots-container"></div>
+        </div>
+
+        <div id="final-screen" class="hidden">
+            <h1 class="final-title">Ya completaste las palabras...</h1>
+            <div class="big-question">
+                ¿Puedo tener la dicha de decirte mi novio? ❤️
+            </div>
+            
+            <div class="buttons-container">
+                <button id="yes-btn">¡SÍ!</button>
+                <button id="no-btn">No</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
